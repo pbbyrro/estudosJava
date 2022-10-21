@@ -132,3 +132,74 @@ Não existe em Java o conceito de métodos globais, portanto todos os métodos d
 Quando um método não possui um retorno (não retorna nada), utiliza-se a expressão void.
 
 Quando um método possui uma exceção, utiliza-se a expressão throws Exception {}.
+
+## Escopo
+
+O escopo consiste no ambiente onde uma variável vai ser acessada. Para tal, é preciso identificar a localização mais conveniente para a escrita de algoritmos necessária para o programa. Em Java, o escopo de variáveis vai de acordo com o bloco onde elas são declaradas
+
+A variável é criada no primeiro acesso à ela, se tornando inacessível após o interpretador sair do bloco de execução ao qual ela pertence. Portanto, esta variável não pode ser lida ou manipulada por rotinas e códigos que estão fora do seu bloco de variação, ou seja, fora do escopo da variável.
+
+Em uma classe, podemos visualizar a diferença de escopos. Os atributos (variáveis) são declarados no corpo principal da Classe, sendo portanto acessíveis por todos os métodos.
+
+Ao declarar uma variável DENTRO DE UM MÉTODO, o escopo dessa variável está limitado apenas ao escopo desse método.
+
+## Palavras reservadas
+
+Palavras reservadas são identificadores de uma linguagem que já possuem uma finalidade específica, portanto não podem ser utilizados para nomear variáveis, classes, métodos ou atributos. 
+
+A linguagem Java possui 52 palavras reservadas. Todas elas são classificadas em grupos e escritas com letra minúscula, sendo identificadas com uma cor especial pela maioria das IDEs.
+
+### Controle de pacotes
+</br>import: importa pacotes ou classes para dento do código
+</br>package: especifica a que pacote todas as classes de um arquivo pertencem
+
+### Modificadores de acesso
+</br>public: acesso de qualquer classe
+</br>private: acesso apenas dentro da classe
+</br>protected: acesso por classe no mesmo pacote e subclasses
+
+### Modificadores de classes, variáveis ou métodos
+</br>abstract: classe que não pode ser instanciada ou método que precisa ser implementando por uma subclasse não abstrata
+</br>class: especifica uma classe
+</br>extends: indica a superclasse que uma subclasse está inserida
+</br>final: impossibilita que uma classe seja estendida, que um método seja sobrescreito ou que uma variável seja reiniciada
+</br>implements: indica as interfaces que uma classe irá implementar
+</br>interface: especifica uma interface
+</br>native: indica que o método está escrito em uma linguagem dependente de plataforma, como o C
+</br>new: instancia um novo objeto, chamando seu construtor
+</br>static: faz um método ou variável pertencer à classe ao invés de às instâncias
+</br>strictfp: usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões
+</br>synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+</br>transient: impede a serialização de campos
+</br>volatile: indica que uma variável pode ser alterada durante o uso de threads
+
+### Controle de fluxo dentro de um bloco de código
+</br>break: sai do bloco de código em que ele está
+</br>case: executa um bloco de código dependendo do teste do switch
+</br>continue: pula a execução do código que viria após essa linha e vai para a próxima passagem do loop
+
+### Palavras "opostas"
+</br>package <> import
+</br>extends <> implements
+</br>final <> abstract
+</br>throws <> throw
+
+## Java Doc
+
+Java Documentation é composto por tags que representam dados relevantes para a compreensão da proposta de uma classe e os conjuntos de seus métodos e atributos.
+
+</br>@autor: autor/criador
+</br>@version: versão do recurso disponibilizado
+</br>@since: data de início da disponibilização do recurso
+</br>@param: descrição dos parâmetros dos métodos criados
+</br>@return: definição do tipo de retorno de um método
+</br>@throws: se o método tem alguma excessão
+
+</br>Comentários em uma única linha: //
+</br>Comentários em mais de uma linha: /*
+</br>*
+</br>*
+</br>*
+</br>*/
+
+

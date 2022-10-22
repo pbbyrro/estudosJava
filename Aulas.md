@@ -202,4 +202,30 @@ Java Documentation é composto por tags que representam dados relevantes para a 
 </br>*
 </br>*/
 
+## Terminal e Argumentos
 
+Nem sempre executamos nosso programa Java pela IDE. Com a JVM devidamente configurada, é possível criar um executável do programa e disponibilizar o instalador para qualquer sistema operacional. Observe que num projeto criado na IDE, há uma pasta chamada bin. É nesta pasta que ficarão os arquivos .class, o nosso bytecode.
+
+Mesmo usando uma IDE, é sempre importante identificar onde estão as classes do projeto.
+
+</br>1. Abra o MS-DOS ou Power Shell;
+</br>2. Localize o diretório do projeto;
+</br>3. Acesse a pasta bin: cd bin
+</br>4. Digite o comando: java MinhaClasse (nome da classe sem a extensão .class)
+
+### Argumentos
+
+Quando executamos uma classe que contém o método main, o mesmo permite que passemos um array [] de argumentos do tipo String. Logo podemos, após a definição da classe a ser executada, informar estes parâmetros. Exemplo:
+
+</br> java MinhaClasse argumentoUm argumentoDois
+
+### Scanner
+
+Para receber dados digitados pelo usuário no sistema, tudo precisa estar em uma só linha e em suas respectivas posições. Esta abordagem pode deixar margens de execução com erro. Para isso, com a finalidade de deixar as entradas de dados mais seguras, vamos receber estes dados via Scanner. A classe Scanner permite que o usuário tenha uma interação mais assertiva com o programa.
+
+## Operadores Relacionais
+
+Os operadores relacionais são símbolos capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado. 
+</br> É possível comparar int e float pois ambos são tipos de dados numéricos.
+</br> Não é possível comparar strings ou booleanos pelo tamanho.
+</br> Não é possível comparar tipos de dados diferentes caso não sejam ambos numéricos (ex. string e char).

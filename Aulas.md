@@ -226,6 +226,26 @@ Para receber dados digitados pelo usuário no sistema, tudo precisa estar em uma
 ## Operadores Relacionais
 
 Os operadores relacionais são símbolos capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado. 
-</br> É possível comparar int e float pois ambos são tipos de dados numéricos.
-</br> Não é possível comparar strings ou booleanos pelo tamanho.
-</br> Não é possível comparar tipos de dados diferentes caso não sejam ambos numéricos (ex. string e char).
+</br>É possível comparar int e float pois ambos são tipos de dados numéricos.
+</br>Não é possível comparar strings ou booleanos pelo tamanho.
+</br>Não é possível comparar tipos de dados diferentes caso não sejam ambos numéricos (ex. string e char).
+
+## Operadores Lógicos
+
+Os operadores lógicos são símbolos capazes de realizar comparações lógicas entre entre operandos lógicos ou expressões e, em seguida, retornar um resultado.
+</br>Conjunção: operação lógica que só é verdadeira quando ambos os operandos ou expressões envolvidas são verdadeiros;
+</br>Disjunção: operação que só é falsa quando ambos os operandos ou expressões envolvidas são falsos;
+</br>Disjunção exclusiva: operação que só é verdade quando ambos os operandos ou expressões são opostos (simbologia: ^);
+</br>Negação: operação que inverte o valor lógico de um operando ou expressão.
+
+## Controle de fluxo
+
+Os operadores de controle de fluxo são estruturas que têm a capacidade de direcionar o fluxo de execução do código. O switch trata os casos de uma única entrada, enquanto o if não restringe quantas entradas serão avaliadas. O if pode avaliar apenas valores booleanos, não suportando expressões aritméticas.
+
+## Blocos
+
+Um bloco é um grupo de 0 ou mais códigos que trabalham em conjunto para executar uma operação.
+
+</br>Locais: dentro de métodos
+</br>Estáticos: dentro de classes
+</br>Instância: dentro de classes

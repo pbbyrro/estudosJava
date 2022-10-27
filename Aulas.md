@@ -249,3 +249,38 @@ Um bloco é um grupo de 0 ou mais códigos que trabalham em conjunto para execut
 </br>Locais: dentro de métodos
 </br>Estáticos: dentro de classes
 </br>Instância: dentro de classes
+
+## Estruturas de Repetição
+
+O real poder dos computadores está na sua habilidade para repetir uma operação ou uma série de operações várias vezes. Cada repetição é chamada de laço (loop). Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente caso determinadas condições sejam satisfeitas. Essas condições são representadas por expressões lógicas.
+
+</br>While: repetição com teste no início
+</br>Do-while: repetição com teste no final
+</br>For: repetição contada
+
+O comando break é utilizado para terminar de forma abrupta uma repetição. Quando o comando continue é utilizado, os comandos restantes da repetição são ignorados e o programa volta a testar novamente.
+
+### Operadores de incremento e decremento
+
+Para somar um ao valor da variável, retornando o valor original, utiliza-se o atalho numero++.
+
+</br>Forma original:
+</br>(retorne numero)
+</br>numero = numero + 1
+
+Para subtrair um ao valor da variável, retornando o valor original, utiliza-se o atalho numero--.
+
+</br>Forma original:
+</br>(retorne numero)
+</br>numero = numero - 1
+
+### Operações aritméticas
+
+</br>Para somar k unidades ao valor da variável, utiliza-se o atalho numero += k.
+</br>Para subtrair k unidades ao valor da variável, utiliza-se o atalho numero -=k.
+</br>Para multiplicar o valor da variável por k, utiliza-se o atalho numero *= k.
+</br>Para dividir o valor da variável por k, utiliza-se o atalho numero /= k.
+
+## Arrays
+
+Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo. Os arrays permanecem com o mesmo tamanho depois de criados. As posições em uma array sempre começam no 0.
